@@ -3,38 +3,143 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Case Studies | LeadScalio</title>
-    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <style>
-        :root { --bg-color: #050505; --card-bg: #0f0f11; --accent-color: #FFDE00; --text-color: #ffffff; --border-color: #1e1e24; }
-        body { font-family: 'Plus Jakarta Sans', sans-serif; background-color: var(--bg-color); color: var(--text-color); padding: 100px 20px; }
-        .container { max-width: 1200px; margin: 0 auto; }
-        .back-btn { color: var(--text-color); text-decoration: none; display: inline-block; margin-bottom: 40px; font-weight: 600; }
-        .back-btn:hover { color: var(--accent-color); }
-        h1 { font-size: 3rem; margin-bottom: 60px; text-align: center; text-transform: uppercase; }
-        h1 span { color: var(--accent-color); }
-        .grid { display: grid; grid-template-columns: repeat(auto-fit, minmax(400px, 1fr)); gap: 30px; }
-        .case-card { background: var(--card-bg); border: 1px solid var(--border-color); border-radius: 20px; padding: 30px; text-align: center; }
-        .img-holder { width: 100%; aspect-ratio: 16/10; background: #1a1a1a; border-radius: 12px; margin-bottom: 20px; overflow: hidden; }
-        .img-holder img { width: 100%; height: 100%; object-fit: cover; }
-        @media (max-width: 767px) { .grid { grid-template-columns: 1fr; } }
-    </style>
+    <title>Case Studies | Performance Report</title>
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
-<body>
-    <div class="container">
-        <a href="index.html" class="back-btn">← Back to Home</a>
-        <h1>Our <span>Case Studies</span></h1>
-        
-        <div class="grid">
-            <div class="case-card"><h3>Case Study 1</h3><div class="img-holder"><img src="case1.png" alt="Study 1"></div></div>
-            <div class="case-card"><h3>Case Study 2</h3><div class="img-holder"><img src="case2.png" alt="Study 2"></div></div>
-            <div class="case-card"><h3>Case Study 3</h3><div class="img-holder"><img src="case3.png" alt="Study 3"></div></div>
-            <div class="case-card"><h3>Case Study 4</h3><div class="img-holder"><img src="case4.png" alt="Study 4"></div></div>
-            <div class="case-card"><h3>Case Study 5</h3><div class="img-holder"><img src="case5.png" alt="Study 5"></div></div>
-            <div class="case-card"><h3>Case Study 6</h3><div class="img-holder"><img src="case6.png" alt="Study 6"></div></div>
-            <div class="case-card"><h3>Case Study 7</h3><div class="img-holder"><img src="case7.png" alt="Study 7"></div></div>
-            <div class="case-card"><h3>Case Study 8</h3><div class="img-holder"><img src="case8.png" alt="Study 8"></div></div>
-        </div>
+<body class="bg-gray-50 text-gray-900 font-sans leading-relaxed">
+    <div class="max-w-4xl mx-auto px-6 py-12">
+        <header class="mb-16">
+            <h1 class="text-3xl font-bold mb-8">Performance Overview</h1>
+            <div class="w-full h-64 bg-gray-200 border-2 border-dashed border-gray-400 rounded-lg flex items-center justify-center text-gray-500">[Dashboard Graphic Placeholder]</div>
+        </header>
+
+        <main class="space-y-16">
+            <!-- 1. Rahul Barman -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Rahul Barman | Meta Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Faced prohibitively high costs per acquisition on other advertising platforms.</p>
+                    <p><strong>The Solution:</strong> Executed a Meta-specific strategy optimized for link clicks and conversions, resulting in the most efficient cost per lead in the portfolio.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹37,288.00 | Total Leads Generated: 4,557 | Link Clicks: 10,099 | Cost Per Lead: ₹8.18</p>
+                </div>
+            </section>
+
+            <!-- 2. MNKPatel -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">MNKPatel | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> The client struggled with scaling; a strategy that worked on a small budget became inefficient and costly when attempting to increase volume.</p>
+                    <p><strong>The Solution:</strong> Implemented a tiered audience expansion strategy on Snapchat, allowing for higher budget deployment while maintaining performance stability.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹2,70,474.14 | Total Leads Generated: 21,044 | Cost Per Lead: ₹12.85</p>
+                </div>
+            </section>
+
+            <!-- 3. Namra Asif -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Namra Asif | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> The client relied on manual, time-consuming outreach, which made lead flow inconsistent and impossible to forecast.</p>
+                    <p><strong>The Solution:</strong> Shifted to an automated lead-capture funnel using native Snapchat forms to ensure a predictable and steady stream of leads.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹1,87,349.67 | Total Leads Generated: 15,608 | Cost Per Lead: ₹12.16</p>
+                </div>
+            </section>
+
+            <!-- 4. Sunel Nath -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Sunel Nath | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Experienced high acquisition costs from previous campaigns that were negatively impacting the business's profit margins.</p>
+                    <p><strong>The Solution:</strong> Overhauled the creative hooks to focus on a direct value proposition, which successfully lowered the cost per lead to a sustainable level.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹1,77,361.12 | Total Leads Generated: 14,412 | Cost Per Lead: ₹12.31</p>
+                </div>
+            </section>
+
+            <!-- 5. Jyoti -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Jyoti | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> The business required highly specific, high-intent female leads, but general ad targeting was attracting irrelevant traffic.</p>
+                    <p><strong>The Solution:</strong> Refined ad creative and audience targeting parameters to resonate exclusively with the female demographic, ensuring lead quality met the business requirement.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹1,20,650.19 | Total Leads Generated: 9,476 | Cost Per Lead: ₹12.73</p>
+                </div>
+            </section>
+
+            <!-- 6. Ajay Jatt -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Ajay Jatt | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Faced high market competition where ads were frequently getting lost in the noise, resulting in expensive, low-quality clicks.</p>
+                    <p><strong>The Solution:</strong> Utilized high-impact vertical video assets to improve brand recall and Click-Through Rate (CTR), maintaining efficiency despite saturation.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹1,18,292.32 | Total Leads Generated: 9,303 | Cost Per Lead: ₹12.72</p>
+                </div>
+            </section>
+
+            <!-- 7. Pawan Kumar (Campaign A) -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Pawan Kumar | Snapchat Ads (Campaign A)</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Needed massive, consistent lead volume to sustain a large, high-capacity sales team.</p>
+                    <p><strong>The Solution:</strong> Applied an aggressive scaling strategy to the top-performing ad sets, ensuring the sales team had a continuous, high-volume pipeline.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹1,15,371.19 | Total Leads Generated: 9,351 | Cost Per Lead: ₹12.34</p>
+                </div>
+            </section>
+
+            <!-- 8. Saniya -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Saniya | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Struggled with the instability of organic lead generation and cold DMs, which were not scalable for the business.</p>
+                    <p><strong>The Solution:</strong> Transitioned the business to a paid Snapchat acquisition model, which provided a reliable, measurable, and daily count of new leads.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹84,451.00 | Total Leads Generated: 7,121 | Cost Per Lead: ₹11.86</p>
+                </div>
+            </section>
+
+            <!-- 9. Vishal Kumar -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Vishal Kumar | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Had consistent traffic but suffered from low conversion rates, meaning the advertising budget was being wasted on non-converting users.</p>
+                    <p><strong>The Solution:</strong> Streamlined the lead form fields to reduce user friction, immediately improving the conversion of traffic into actual leads.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹67,372.55 | Total Leads Generated: 5,133 | Cost Per Lead: ₹13.13</p>
+                </div>
+            </section>
+
+            <!-- 10. Himani -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Himani | Snapchat Ads</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Suffered from budget wastage due to broad targeting that reached users with no genuine interest in the product.</p>
+                    <p><strong>The Solution:</strong> Implemented a rigorous audience exclusion strategy to remove low-intent segments, focusing the budget only on high-performing users.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹56,386.45 | Total Leads Generated: 4,619 | Cost Per Lead: ₹12.21</p>
+                </div>
+            </section>
+
+            <!-- 11. Pawan Kumar (Campaign B) -->
+            <section class="border-b border-gray-200 pb-12">
+                <h2 class="text-2xl font-semibold mb-6 text-blue-800">Pawan Kumar | Snapchat Ads (Campaign B)</h2>
+                <div class="w-full h-48 bg-gray-100 border border-gray-300 rounded mb-6 flex items-center justify-center text-sm text-gray-400">[Individual Case Study Dashboard Image]</div>
+                <div class="space-y-4">
+                    <p><strong>The Problem:</strong> Wanted to test a specific micro-niche for his business but was concerned that the acquisition costs would be too high to be profitable.</p>
+                    <p><strong>The Solution:</strong> Used granular, interest-based targeting to isolate the niche, achieving a highly efficient acquisition cost.</p>
+                    <p class="bg-white p-4 rounded border border-gray-200 text-sm"><strong>Performance Metrics:</strong> Total Amount Spent: ₹29,308.93 | Total Leads Generated: 2,759 | Cost Per Lead: ₹10.62</p>
+                </div>
+            </section>
+        </main>
+
+        <footer class="mt-16 text-center border-t pt-12">
+            <h3 class="text-xl font-bold mb-4">Ready to optimize your lead acquisition?</h3>
+            <button class="bg-blue-600 text-white px-8 py-3 rounded-full hover:bg-blue-700 transition">Let's analyze your potential.</button>
+        </footer>
     </div>
 </body>
 </html>
